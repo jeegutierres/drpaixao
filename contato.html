@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dr. Paixão - Contato</title>
+    <link rel="icon" type="image/x-icon" href="favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> ♥
+            <a href="minicurriculo.html">Currículo</a> ♥
+            <a href="especialidade.html">Especialidades</a> ♥
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+<main>
+    <h1>Contato:</h1>
+    <p>Agende sua consulta! Por favor, indique sua preferência por dia e horário. Após checarmos a disponibilidade, entraremos em contato com você para confirmação.</p>
+    
+    <form method="post" action=""></form>
+        <label for="nome"><strong>Nome: *</strong></label>
+        <input id="nome" type="text" name="txt-nome" size="100" required><br><br>
+
+        <label for="email"><strong>E-mail: *</strong></label>
+        <input id="email" type="email" name="txt-email" size="62" required>
+
+        <label for="telefone"><strong>Telefone: *</strong></label>
+        <input id="telefone" type="tel" name="txt-telefone" required><br><br>
+
+        <label for="consultorio"><strong>Consultório de preferência:</strong></label>
+        <select id="consultorio" name="sel-consultorio">
+            <option value="" hidden>Selecione um item</option>
+            <option>Bela Vista</option>
+            <option>Tatuapé</option>
+            <option>Santana</option>
+            <option>São José do Rio Preto</option>
+        </select>
+
+        <label for="data"><strong>Data da consulta:</strong></label>
+        <input id="data" type="date" name="dat-data">
+
+        <label for="horario"><strong>Horário:</strong></label>
+        <input id="horario" type="time" name="tim-horario"><br><br>
+
+        <label for="comochegou"><strong>Como chegou ao nosso site?</strong></label><br> <!-- o label deveria ser um para cada input-->
+        <input id="comochegou" type="radio" name="rad-comochegou" value="facebook">Facebook<br>
+        <input id="comochegou" type="radio" name="rad-comochegou" value="instagram">Instagram<br>
+        <input id="comochegou" type="radio" name="rad-comochegou" value="google">Google<br>
+        <input id="comochegou" type="radio" name="rad-comochegou" value="email">E-mail de convite<br>
+        <input id="comochegou" type="radio" name="rad-comochegou" value="outros">Outros<br><br>
+
+        <label for="mensagem"><strong>Mensagem: *</strong></label><br>
+        <textarea id="mensagem" rows="5" cols="50"></textarea><br><br>
+
+        <button>Enviar</button>
+</main>
+
+<footer>
+    
+</footer>
+    
+</body>
+</html>
